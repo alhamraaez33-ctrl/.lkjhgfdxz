@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مؤسسة الخير الإنسانية</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Tahoma,sans-serif;
+}
+
+body{
+background:#f3f6f9;
+}
+
+header{
+background:#0b6b3a;
+color:#fff;
+padding:35px;
+text-align:center;
+}
+
+header h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:18px;
+}
+
+.container{
+max-width:700px;
+margin:40px auto;
+background:#fff;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+h2{
+color:#0b6b3a;
+margin-bottom:15px;
+text-align:center;
+}
+
+.info{
+background:#eef8f1;
+padding:15px;
+border-radius:8px;
+margin-bottom:25px;
+line-height:1.8;
+}
+
+input,textarea{
+width:100%;
+padding:14px;
+margin-top:12px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
+}
+
+textarea{
+height:100px;
+resize:none;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:20px;
+background:#0b6b3a;
+color:white;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+button:hover{
+background:#09572f;
+}
+
+.whatsapp{
+display:block;
+margin-top:20px;
+text-align:center;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:8px;
+text-decoration:none;
+font-size:18px;
+}
+
+footer{
+margin-top:40px;
+background:#0b6b3a;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>مؤسسة الخير الإنسانية</h1>
+<p>توزيع مساعدات إنسانية - دعم الأسر المحتاجة - حملات خيرية</p>
+</header>
+
+<div class="container">
+
+<h2>تسجيل طلب مساعدة</h2>
+
+<div class="info">
+نسعى لتقديم المساعدات الإنسانية للأسر المحتاجة من خلال برامج الدعم والإغاثة والتوزيعات الخيرية.
+يرجى تعبئة البيانات بدقة ليتم التواصل معكم عند توفر المساعدة.
+</div>
+
+<form action="send.php" method="POST">
+
+<input type="text" name="name" placeholder="الاسم الكامل" required>
+
+<input type="text" name="phone" placeholder="رقم الهاتف" required>
+
+<input type="email" name="email" placeholder="البريد الإلكتروني">
+
+<input type="text" name="country" placeholder="الدولة">
+
+<input type="text" name="city" placeholder="المدينة">
+
+<textarea name="address" placeholder="العنوان الكامل"></textarea>
+
+<button type="submit">إرسال الطلب</button>
+
+</form>
+
+<a class="whatsapp" href="https://wa.me/963935734533">
+التواصل عبر واتساب
+</a>
+
+</div>
+
+<footer>
+© جميع الحقوق محفوظة - مؤسسة الخير الإنسانية
+</footer>
+
+</body>
+</html>
