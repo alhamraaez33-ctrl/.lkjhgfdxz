@@ -3,155 +3,146 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مؤسسة الخير الإنسانية</title>
+
+<title>مبادرة الخير الإنسانية</title>
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Tahoma,sans-serif;
-}
 
 body{
-background:#f3f6f9;
+    margin:0;
+    font-family:Tahoma, Arial;
+    background:#f4f7f5;
 }
 
 header{
-background:#0b6b3a;
-color:#fff;
-padding:35px;
-text-align:center;
+    background:linear-gradient(135deg,#087f3d,#16b364);
+    color:white;
+    padding:50px 20px;
+    text-align:center;
 }
 
 header h1{
-font-size:32px;
-margin-bottom:10px;
+    font-size:38px;
+    margin-bottom:10px;
 }
 
 header p{
-font-size:18px;
+    font-size:20px;
 }
 
-.container{
-max-width:700px;
-margin:40px auto;
-background:#fff;
-padding:30px;
-border-radius:12px;
-box-shadow:0 5px 20px rgba(0,0,0,.15);
+.box{
+    max-width:700px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px #ccc;
 }
 
 h2{
-color:#0b6b3a;
-margin-bottom:15px;
-text-align:center;
+    color:#087f3d;
+    text-align:center;
 }
 
-.info{
-background:#eef8f1;
-padding:15px;
-border-radius:8px;
-margin-bottom:25px;
-line-height:1.8;
+.text{
+    line-height:2;
+    font-size:18px;
 }
 
-input,textarea{
-width:100%;
-padding:14px;
-margin-top:12px;
-border:1px solid #ccc;
-border-radius:8px;
-font-size:16px;
-}
-
-textarea{
-height:100px;
-resize:none;
+.card{
+    background:#eaf8ef;
+    padding:20px;
+    border-radius:12px;
+    margin:20px 0;
 }
 
 button{
-width:100%;
-padding:15px;
-margin-top:20px;
-background:#0b6b3a;
-color:white;
-font-size:18px;
-border:none;
-border-radius:8px;
-cursor:pointer;
-}
-
-button:hover{
-background:#09572f;
-}
-
-.whatsapp{
-display:block;
-margin-top:20px;
-text-align:center;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:8px;
-text-decoration:none;
-font-size:18px;
+    width:100%;
+    padding:16px;
+    border:0;
+    border-radius:10px;
+    background:#25D366;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
 }
 
 footer{
-margin-top:40px;
-background:#0b6b3a;
-color:white;
-text-align:center;
-padding:20px;
+    background:#087f3d;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
+
 </style>
 
 </head>
 
 <body>
 
+
 <header>
-<h1>مؤسسة الخير الإنسانية</h1>
-<p>توزيع مساعدات إنسانية - دعم الأسر المحتاجة - حملات خيرية</p>
+
+<h1>مبادرة الخير الإنسانية</h1>
+
+<p>
+معًا نصنع الأمل ونساعد المحتاجين
+</p>
+
 </header>
 
-<div class="container">
 
-<h2>تسجيل طلب مساعدة</h2>
 
-<div class="info">
-نسعى لتقديم المساعدات الإنسانية للأسر المحتاجة من خلال برامج الدعم والإغاثة والتوزيعات الخيرية.
-يرجى تعبئة البيانات بدقة ليتم التواصل معكم عند توفر المساعدة.
+<div class="box">
+
+<h2>عن المبادرة</h2>
+
+<div class="text">
+
+نقدم الدعم والمساعدة للأسر المحتاجة من خلال:
+<br>
+✅ توزيع المواد الغذائية
+<br>
+✅ المساعدات الإنسانية
+<br>
+✅ دعم العائلات في الظروف الصعبة
+<br>
+✅ الوقوف مع المحتاجين
+
 </div>
 
-<form action="send.php" method="POST">
 
-<input type="text" name="name" placeholder="الاسم الكامل" required>
 
-<input type="text" name="phone" placeholder="رقم الهاتف" required>
+<div class="card">
 
-<input type="email" name="email" placeholder="البريد الإلكتروني">
+<h2>طلب مساعدة</h2>
 
-<input type="text" name="country" placeholder="الدولة">
+<p>
+إذا كنت بحاجة إلى مساعدة، اضغط على الزر أدناه وتواصل معنا عبر واتساب لإكمال الطلب.
+</p>
 
-<input type="text" name="city" placeholder="المدينة">
+</div>
 
-<textarea name="address" placeholder="العنوان الكامل"></textarea>
 
-<button type="submit">إرسال الطلب</button>
+<a href="https://wa.me/963985475724?text=السلام%20عليكم%20أريد%20تقديم%20طلب%20مساعدة">
 
-</form>
+<button>
+📱 تواصل عبر واتساب
+</button>
 
-<a class="whatsapp" href="https://wa.me/963935734533">
-التواصل عبر واتساب
 </a>
 
+
 </div>
 
+
+
 <footer>
-© جميع الحقوق محفوظة - مؤسسة الخير الإنسانية
+
+© 2026 مبادرة الخير الإنسانية
+
 </footer>
+
 
 </body>
 </html>
